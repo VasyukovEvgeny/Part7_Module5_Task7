@@ -1,19 +1,19 @@
 public class Cycle extends Vehicle{
-    public int speed;
-    private String colour;
-    protected String material;
+    public int size;
+    private String brand;
+    protected int weight;
     String material_new = new String ();
-    String colour_new = new String(colour);
+    String brand_new = new String(brand);
     public Cycle (int speed,String colour, String material){
         speed = speed;
         colour = colour;
         material = material;
     }
-    public String getColour() {
-        return colour;
+    public String getbrand() {
+        return brand;
     }
-    public void setColour (String colour){
-        this.colour = colour;
+    public void setbrand (String brand){
+        this.brand = brand;
     }
     public void sound() {
         System.out.println("Нет звука");
